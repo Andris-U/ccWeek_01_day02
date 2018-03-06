@@ -4,7 +4,7 @@ def return_10
 	return 10
 end
 
-def add(a,b)
+def add a,b
 	a + b
 end
 
@@ -40,4 +40,8 @@ end
 def number_to_short_month_name num 
 	shortMonth = number_to_full_month_name(num)
 	shortMonth.slice(0,3)
+end
+
+def volume_of_cube num 
+	num**3
 end
